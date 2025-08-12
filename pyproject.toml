@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Anime-recommender"
+version = "0.1.0"
+description = "A simple anime recommendation system"
+authors = [
+  { name = "Vishnu", email = "vishnu.offical7710@gmail.com" }
+]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+
+dependencies = [
+  "langchain",
+  "langchain-community",
+  "langchain_groq",
+  "chromadb",
+  "streamlit",
+  "pandas",
+  "python-dotenv",
+  "sentence-transformers",
+  "langchain_huggingface"
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/anime-recommender"
